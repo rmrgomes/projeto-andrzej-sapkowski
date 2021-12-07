@@ -40,16 +40,22 @@ header > p {
     margin-top: 5px;
 }
 
+section.texto a, section.imagem a, footer a {
+    text-decoration: none;
+    font-weight: bold;
+}
+
+section.texto a:hover, section.imagem a:hover, footer a:hover {
+    text-decoration: underline;
+}
+
+
 section {
     font-family: var(--fonte-texto);
     font-size: 1.5em;
     line-height: 1.5em;
     padding: 10vh 30px 10vh 30px;
 
-}
-
-section.texto a:hover, section.imagem a:hover, footer a:hover {
-    text-decoration: underline;
 }
 
 section.texto {
@@ -100,7 +106,7 @@ footer {
     text-align: center;
     background-color: black;
     color: white;
-    padding: 5px 0px;
+    padding: 10px;
 }
 
 footer a {
