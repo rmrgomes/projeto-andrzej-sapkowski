@@ -58,6 +58,10 @@ section {
 
 }
 
+section#padding {
+    padding-bottom: 0px;
+}
+
 section.texto {
     background-color: #DFD9CD;
 }
